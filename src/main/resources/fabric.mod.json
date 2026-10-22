@@ -7,7 +7,11 @@
   "license": "MIT",
   "icon": "assets/cbs-mod/icon.png",
   "authors": [ "Nenicadi" ],
-  "contact": { "homepage": "https://t.me/ashesom" },
+  "contact": {
+    "homepage": "https://t.me/ashesom",
+    "sources": "https://github.com/Nenicadi/CBS",
+    "issues": "https://github.com/Nenicadi/CBS/issues"
+  },
   "entrypoints": {
     "client": [
       {
