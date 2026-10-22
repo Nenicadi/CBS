@@ -1,0 +1,15 @@
+{
+  "yacl3.config.cbs:config.category.basic": "Основное",
+
+  "yacl3.config.cbs:config.detectSel": "Обнаружение кастомных блоков",
+  "yacl3.config.cbs:config.detectSel.desc": "Разные способы обнаружения кастомных блоков.",
+
+  "yacl3.config.cbs:config.detectSel.whitelist": "Предварительное добавление",
+  "yacl3.config.cbs:config.detectSel.blacklist": "Всё, кроме...",
+
+  "yacl3.config.cbs:config.whitelist": "Предварительное добавление",
+  "yacl3.config.cbs:config.whitelist.desc": "Список блоков, которые будут обнаруживаться.",
+
+  "yacl3.config.cbs:config.blacklist": "Всё, кроме...",
+  "yacl3.config.cbs:config.blacklist.desc": "Список блоков, которые не будут обнаруживаться."
+}

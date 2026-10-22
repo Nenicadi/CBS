@@ -1,0 +1,15 @@
+{
+  "yacl3.config.cbs:config.category.basic": "Generic",
+
+  "yacl3.config.cbs:config.detectSel": "Block detection type",
+  "yacl3.config.cbs:config.detectSel.desc": "Different block type detections",
+
+  "yacl3.config.cbs:config.detectSel.whitelist": "Custom pre-selection type",
+  "yacl3.config.cbs:config.detectSel.blacklist": "All types beside...",
+
+  "yacl3.config.cbs:config.whitelist": "Custom pre-selection type",
+  "yacl3.config.cbs:config.whitelist.desc": "List of blocks that must be detected.",
+
+  "yacl3.config.cbs:config.blacklist": "All types beside...",
+  "yacl3.config.cbs:config.blacklist.desc": "List of blocks that must not be detection."
+}

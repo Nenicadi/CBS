@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cbs",
+  "name": "Custom Block Suppressor (CBS)",
+  "description": "Prevents interaction with custom blocks on servers!",
+  "version": "${version}",
+  "license": "MIT",
+  "icon": "assets/cbs-mod/icon.png",
+  "authors": [ "Nenicadi" ],
+  "contact": { "homepage": "https://t.me/ashesom" },
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.nenicadi.cbs.CBS"
+      }
+    ],
+    "modmenu": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.nenicadi.cbs.config.ModMenuIntegration"
+      }
+    ]
+  },
+  "mixins": [
+    "cbs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "yet_another_config_lib_v3": ">=${yacl_version}"
+  }
+}
